@@ -7,7 +7,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public Transform parentToReturn = null;
    
     public void OnBeginDrag(PointerEventData eventData) {
-      //  Debug.Log("BeginDrag");
+       // Debug.Log("BeginDrag");
 
         this.parentToReturn = this.transform.parent;
         
