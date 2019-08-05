@@ -5,7 +5,8 @@ using UnityEngine.EventSystems;
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
 
     public Transform parentToReturn = null;
-   
+    public enum CardType {  Ability, Augment, Equipment };
+
     public void OnBeginDrag(PointerEventData eventData) {
        // Debug.Log("BeginDrag");
 

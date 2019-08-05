@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4211230138210757253}
   - component: {fileID: 4211230138328262729}
-  - component: {fileID: 4211230138328262735}
   - component: {fileID: 4211230138328262733}
   - component: {fileID: 4211230138328262732}
   - component: {fileID: 3066034599813013972}
+  - component: {fileID: 3018457709818478208}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -51,19 +51,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4211230138328262738}
   m_CullTransparentMesh: 0
---- !u!114 &4211230138328262735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4211230138328262738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c5dbb227fb8c4140a78c1d228619237, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentToReturn: {fileID: 0}
 --- !u!225 &4211230138328262733
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -125,6 +112,20 @@ MonoBehaviour:
   m_FlexibleWidth: 0
   m_FlexibleHeight: 0
   m_LayoutPriority: 1
+--- !u!114 &3018457709818478208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211230138328262738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730c557b7f129bc44b1781b9b001fb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentToReturn: {fileID: 0}
+  cardType: 0
 --- !u!1 &4211230139116455330
 GameObject:
   m_ObjectHideFlags: 0

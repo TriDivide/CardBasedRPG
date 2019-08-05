@@ -4,12 +4,24 @@ using UnityEngine.EventSystems;
 
 public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler {
 
+    public Draggable.CardType? cardTypeAccepted = null;
+
 
     public void OnDrop(PointerEventData eventData) {
         Debug.Log("OnDrop to " + gameObject.name);
-        Draggable d = eventData.pointerDrag.GetComponent<Draggable>();
+        Card d = eventData.pointerDrag.GetComponent<Card>();
 
+        bool snap = false;
         if (d != null) {
+            if (cardTypeAccepted == null) {
+                snap = true;
+            }
+            else {
+                snap = (cardTypeAccepted == d.cardType);
+            }
+        }
+
+        if (snap) {
             d.parentToReturn = this.transform;
         }
     }

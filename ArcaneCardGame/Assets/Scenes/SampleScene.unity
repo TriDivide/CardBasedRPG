@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1885638487}
     m_Modifications:
+    - target: {fileID: 3018457709818478208, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: cardType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4211230138328262738, guid: 02067ae7248624346b939d6afb82d1ea,
         type: 3}
       propertyPath: m_Name
@@ -237,6 +242,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4211230139116460636, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: m_Text
+      value: A basic slash attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211230139149987909, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: m_Text
+      value: Slash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02067ae7248624346b939d6afb82d1ea, type: 3}
 --- !u!1001 &238319395
@@ -246,6 +261,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1885638487}
     m_Modifications:
+    - target: {fileID: 3018457709818478208, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: cardType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4211230138328262738, guid: 02067ae7248624346b939d6afb82d1ea,
         type: 3}
       propertyPath: m_Name
@@ -489,7 +509,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 932534107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3791561e1809467498a84ed86c19c77d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3792aa913bf61a84dbfd2702d51bed6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &932534110
@@ -530,7 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.6226415, g: 0.1762193, b: 0.20310807, a: 0.392}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -739,6 +759,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1885638487}
     m_Modifications:
+    - target: {fileID: 3018457709818478208, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: cardType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4211230138328262738, guid: 02067ae7248624346b939d6afb82d1ea,
         type: 3}
       propertyPath: m_Name
@@ -848,6 +873,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211230139116460636, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: m_Text
+      value: You yell with Beastial vigor, ooh so fierce...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211230139149987909, guid: 02067ae7248624346b939d6afb82d1ea,
+        type: 3}
+      propertyPath: m_Text
+      value: 'War Cry!!!
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02067ae7248624346b939d6afb82d1ea, type: 3}
@@ -964,7 +1001,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1885638486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3791561e1809467498a84ed86c19c77d, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0acb071970c4446a35905a64a13e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &1910704959 stripped
