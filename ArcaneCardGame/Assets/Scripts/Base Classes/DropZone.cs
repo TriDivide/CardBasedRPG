@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler {
 
-    public Draggable.CardType? cardTypeAccepted = null;
+    public CardData.CardType? cardTypeAccepted = null;
 
 
     public void OnDrop(PointerEventData eventData) {

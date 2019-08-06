@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class Card : Draggable {
 
-    public CardType cardType = CardType.Ability;
+    public CardData.CardType cardType = CardData.Ability;
+
+
+    public 
 }

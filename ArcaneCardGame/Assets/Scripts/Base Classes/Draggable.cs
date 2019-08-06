@@ -5,16 +5,10 @@ using UnityEngine.EventSystems;
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
 
     public Transform parentToReturn = null;
-    public enum CardType {
-        Ability = 0,
-        Augment = 1,
-        Equipment = 2,
-        Adventurer = 3
-    };
+
 
     public void OnBeginDrag(PointerEventData eventData) {
        // Debug.Log("BeginDrag");
-
         this.parentToReturn = this.transform.parent;
         
         this.transform.SetParent(this.transform.parent.parent);
