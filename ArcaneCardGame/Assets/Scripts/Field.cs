@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Field : DropZone {
 
+    [SerializeField]
+    private CardData.CardType acceptedCard = CardData.CardType.Ability;
+
     private void Start() {
-        this.cardTypeAccepted = Draggable.CardType.Ability;
+        this.cardTypeAccepted = acceptedCard;
     }
 }
